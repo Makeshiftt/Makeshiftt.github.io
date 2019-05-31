@@ -1,31 +1,142 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>A Cool Website</title>
-	<style>
+	<title>Woah, Technology</title>
+<style>
+	@charset "UTF-8";
+	
+	* {
+		box-sizing: border-box;
+	}
+	
 	body {
+		background-color: #f2f2f2;
 		font-family: sans-serif;
-		background-color: rgb(0,200,200)
 	}
+	
+	h1 {
+		font-family: "Lucida Console", sans-serif;
+		font-weight:bold;
+	}
+	
 	p {
-		font-family: cursive;
-		font-size: 20px
+		font-size:1
 	}
-	li {
-		font-size: 15px;
+	
+	.header {
+		background-color: white;
+		padding: 20px;
+		text-align: center;
 	}
-	</style
+	
+	.topnav {
+		overflow: hidden;
+		background-color: rgb(60, 60, 60);
+	}
+
+	.topnav a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	.topnav a:hover {
+		background-color: rgb(214, 214, 214);
+		color: black;
+	}
+
+	.rightcolumn {
+		text-align: center;
+		float: left;
+		width: 24%;
+		padding-left 20px;
+		background-color: f2f2f2;
+		margin-left:0.75%
+		
+	}
+
+	.leftcolumn {
+		float: left;
+		width: 75%;
+		text-align: center;
+	}
+	
+	.card {
+		background-color: white;
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	@media screen and (max-width: 600px) {
+		.column.right, .column.left {
+		width: 100%;
+		padding: 0;
+		float: none;
+		}
+	}
+	
+	@media screen and (max-width: 400px) {
+		.topnav a {
+			float: none;
+			width: 100%;
+		}
+	}
+	.footer {
+		padding:20px;
+		text-align:center;
+		background: #ddd;
+		margin-top:20px
+	}
+</style>
 </head>
 <body>
-	<center>
-		<h1>The Famous Traveling Trio Of Skeletons<h1>
-		<p>Here's the trio of skeletal trumpet players here to play a song <em>Just</em> for you! </p>
+	<div class="header">
+		<h1>Neat</h1>
+	</div>
+	<div class="topnav">
+			<a href="#">Link</a>
+			<a href="#">Link</a>
+			<a href="#">Link</a>
+			<a href="#" style="float: right">Link</a>
+	</div>
+	<div class="row">
+		<div class="leftcolumn">
+			<div class="card">
+				<h2>Main</h2>
+				<h4>Large Oof</h4>
+			</div>
+			<div class="card">
+				<h3>Larger Ooft</h3>
+			</div>
+			<div class="card">
+			<h2>Largest Oof</h2>
+			</div>
+		</div>
+		<div class="rightcolumn">
+			<div class="card">
+				<h2>Side</h2>
+				<h4>Big oof</h4>
+			</div>
+			<div class="card">
+			<h3>Bigger Oof</h3>
+			</div>
+			<div class="card">
+			<h2>Biggest Oof'd</h2>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+	<h2>dang</h2>
+	</div>
 	
-		<img src="https://media.giphy.com/media/J0WeVOLjuqW2I/giphy.gif" height=84>
-		<a href="Secret!.html"><img src="https://media.giphy.com/media/J0WeVOLjuqW2I/giphy.gif" height=84></a>
-		<img src="https://media.giphy.com/media/J0WeVOLjuqW2I/giphy.gif" height=84>
-		<p></p>
-		<a href="CoolPage.html">What's This???</a>
-	</center>
 </body>
 </html>
