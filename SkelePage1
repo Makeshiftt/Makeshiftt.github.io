@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Cool Website</title>
+	<style>
+  body  {
+  background-color: rgb(0,200,200)
+  }
+ </style>
+ <body>
+ <center>
+		<h1>The Famous Traveling Trio Of Skeletons<h1>
+		<p>Here's the trio of skeletal trumpet players here to play a song <em>Just</em> for you! </p>
+	
+		<img src="https://media.giphy.com/media/J0WeVOLjuqW2I/giphy.gif" height=84>
+		<a href="Secret!.html"><img src="https://media.giphy.com/media/J0WeVOLjuqW2I/giphy.gif" height=84></a>
+		<img src="https://media.giphy.com/media/J0WeVOLjuqW2I/giphy.gif" height=84>
+		<p></p>
+		<a href="CoolPage.html">What's This???</a>
+	</center>
+  </body>
+  </html>
