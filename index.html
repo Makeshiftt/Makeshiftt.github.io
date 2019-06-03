@@ -90,7 +90,7 @@ p {
 </head>
 <body>
 	<div class="header">
-		<h1 style="font-size: 200%">Makeshift Dan the Miracle Man</h1>
+		<h1 id="Heading" style="font-size: 200%"></h1>
 	</div>
 	<div class="topnav">
 			<a href="https://makeshiftt.github.io/index.html">Home</a>
@@ -138,6 +138,20 @@ p {
 	<div class="footer">
 	<h2>dang</h2>
 	</div>
-	
+<script>
+var name;
+var num;
+num = Math.random()
+if (num < 0.25) {
+  name="Makeshift Dan the Miracle Man";
+} else if (num > 0.25 && num < 0.5) {
+  name="Makeshift's House of Fun ( ͡° ͜ʖ ͡°)";
+} else if (num > 0.5 && num <0.75) {
+  name="Makeshift's House of Meme";
+} else {
+  name="Makeshift's Dumb Website";
+}
+document.getElementById("Heading").innerHTML = name;
+</script>
 </body>
 </html>
