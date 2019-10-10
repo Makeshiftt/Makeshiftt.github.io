@@ -157,55 +157,32 @@ p {
 	<h2>Trash HTML since 2003™</h2>
 	</div>
 <script>
-var name;
-var num;
-num = Math.random()
-if (num < 0.05) {
-  name="Makeshift Dan the Miracle Man";
-} else if (num > 0.05 && num < 0.1) {
-  name="Makeshift's House of Fun ( ͡° ͜ʖ ͡°)";
-} else if (num > 0.1 && num < 0.15) {
-  name="Makeshift's House of Meme";
-} else if (num > 0.15 && num < 0.2) {
-  name="Makeshift's Dumb Website";
-} else if (num > 0.2 && num < 0.25) {
-  name="BEWARE: Makeshifts are Lurking";
-} else if (num > 0.25 && num < 0.3) {
-  name="Makeshift's Unsorted, Unimpressive and Unimmersive Website!";
-} else if (num > 0.3 && num < 0.35) {
-  name="Makeshift's Magnificent and Magical Mebsite!";
-} else if (num > 0.35 && num < 0.4) {
-  name="Makeshift's House of Meem";
-} else if (num > 0.4 && num < 0.45) {
-  name="Makeshift Inc: Making A Better Future, One Miracle at a Time";
-} else if (num > 0.45 && num < 0.5) {
-  name="Makeshift's Realm of Nothingness";
-} else if (num > 0.5 && num < 0.55 ) {
-  name="The Abyss";
-} else if (num > 0.55 && num < 0.6 ) {
-  name="The Immortal Paradise";
-} else if (num > 0.6 && num < 0.65 ) {
-  name="Makeshift's Castle of uwu";
-} else if (num > 0.65 && num < 0.7 ) {
-  name="Makeshift's Kingdom of Hoomans";
-} else if (num > 0.7 && num < 0.75 ) {
-  name="Makeshift's Land of Intelectual Beings";
-} else if (num > 0.75 && num < 0.8 ) {
-  name="Not zoom1202's website";	
-} else if (num > 0.8 && num < 0.85 ) {
-  name="I don't abide in the \"Laws of Physics\"";
-} else if (num > 0.85 && num < 0.9 ) {
-  name="Makeshift for President!";
-} else if (num > 0.9 && num < 0.95 ) {
-  name="John Wick Needs Your Help!";
-} else if (num > 0.95 && num < 0.98 ) {
-  name="Welcome to the internet, where your opinion doesn't matter!";
-} else if (num > 0.98 && num < 0.985) { 
-  name="makeshift stinky";
-} else {
-  name="placeholder";
-}
-document.getElementById("Heading").innerHTML = name;
+var names = [
+    "Makeshift Dan the Miracle Man", 
+    "Makeshift's House of Fun ( ͡° ͜ʖ ͡°)", 
+    "Makeshift's House of Meme",
+    "Makeshift's Dumb Website",
+    "BEWARE: Makeshifts are Lurking",
+    "Makeshift's Unsorted, Unimpressive and Unimmersive Website!",
+    "Makeshift's Magnificent and Magical Mebsite!",
+    "Makeshift's House of Meem",
+    "Makeshift Inc: Making A Better Future, One Miracle at a Time",
+    "Makeshift's Realm of Nothingness",
+    "The Abyss",
+    "The Immortal Paradise",
+    "Makeshift's Castle of uwu",
+    "Makeshift's Kingdom of Hoomans",
+    "Makeshift's Land of Intelectual Beings",
+    "Not zoom1202's website",
+    "I don't abide in the \"Laws of Physics\"",
+    "Makeshift for President!",
+    "John Wick Needs Your Help!",
+    "Welcome to the internet, where your opinion doesn't matter!",
+    "makeshift stinky",
+    "placeholder"
+    ];
+var num = Math.floor((Math.random() * 22));
+document.getElementById("Heading").innerHTML = names[num];
 </script>
 </body>
 </html>
